@@ -1,0 +1,19 @@
+1. Go to https://dashboard.stripe.com/ and make account
+
+2. Turn on VIEWING TEST DATA
+
+3. Get publish key and secret key from Developers > API keys. Copy Publishable key and Secret key in settings.py
+
+4. Go to Product and create a new product
+
+5. Follow steps mentioned in picture
+
+6 copy ID from dashboard (pic stripe_5) and specify stripe_plan_id in views.py
+
+
+*****************************Stripe Token ***************************
+http://127.0.0.1:8000/api/subscribe/
+
+You can create stripe Token using this link (https://stripe.com/docs/api/tokens/create_card?lang=python) by passing card number
+OR
+You can also create stripe Token by stripe frontend form by passing cared number
