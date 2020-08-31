@@ -1,6 +1,6 @@
 # Facial-Recognition-SAAS-Django
 
-## This API is deployed on http://areebaseher04.pythonanywhere.com/
+## This API is deployed at http://areebaseher04.pythonanywhere.com/
 
 ## ENDPOINTS
 
